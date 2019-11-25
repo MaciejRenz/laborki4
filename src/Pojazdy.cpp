@@ -3,7 +3,13 @@
 
 Pojazdy::Pojazdy()
 {
-    //ctor
+    std::cout << "wywo³ano konstruktor DOMYSLNY klasy nadrzêdnej" << std::endl;
+}
+
+Pojazdy::Pojazdy(int rocznik_p)
+{
+    std::cout << "wywo³ano konstruktor klasy nadrzêdnej" << std::endl;
+    rocznik = rocznik_p;
 }
 
 Pojazdy::~Pojazdy()

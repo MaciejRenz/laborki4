@@ -6,6 +6,7 @@ class Pojazdy
 {
     public:
         Pojazdy();
+        Pojazdy(int rocznik_p);
         virtual ~Pojazdy();
 
         void set_rocznik();

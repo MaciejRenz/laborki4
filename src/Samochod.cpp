@@ -1,10 +1,10 @@
 #include "Samochod.h"
 #include <iostream>
 
-Samochod::Samochod(int pojemnosc_silnika_s)
+Samochod::Samochod(int pojemnosc_silnika_s, int rocznik_p) : Pojazdy(rocznik_p)
 {
     pojemnosc_silnika=pojemnosc_silnika_s;
-    std::cout<<pojemnosc_silnika<<std::endl;
+    std::cout << "pojemnosc silnika: " << pojemnosc_silnika << std::endl;
 }
 
 Samochod::~Samochod()
