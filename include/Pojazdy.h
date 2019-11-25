@@ -10,6 +10,7 @@ class Pojazdy
 
         void set_rocznik();
         int get_rocznik();
+        virtual void uruchom() = 0;
 
     private:
         int rocznik;

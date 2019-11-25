@@ -20,4 +20,9 @@ void Rower::set_cena()
     std::cout << "Podaj nowa cena:";
     std::cin >> cena;
 }
+void Rower::uruchom()
+{
+    std::cout << "Zaczynam pedalowac... ;D";
+}
+
 

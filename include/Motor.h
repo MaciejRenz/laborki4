@@ -12,6 +12,7 @@ class Motor : public Pojazdy
         virtual ~Motor();
         std::string get_kolor();
         void set_kolor();
+        void uruchom();
 
     private:
         std::string kolor;

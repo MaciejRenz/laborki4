@@ -20,4 +20,8 @@ void Samochod::set_pojemnosc_silnika()
     std::cout << "Podaj nowa pojemnosc silnika:";
     std::cin >> pojemnosc_silnika;
 }
+void Samochod::uruchom()
+{
+    std::cout << "Przekrecam kluczyk w stacyjce..";
+}
 

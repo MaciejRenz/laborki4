@@ -12,6 +12,7 @@ class Rower : public Pojazdy
 
         void set_cena();
         int get_cena();
+        void uruchom();
 
     private:
         int cena;

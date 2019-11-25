@@ -11,6 +11,7 @@ class Autobus : public Pojazdy
         virtual ~Autobus();
         int get_ilosc_miejsc();
         void set_ilosc_miejsc();
+        void uruchom();
 
     private:
         int ilosc_miejsc;

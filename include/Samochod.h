@@ -12,6 +12,7 @@ class Samochod : public Pojazdy
 
         void set_pojemnosc_silnika();
         int get_pojemnosc_silnika();
+        void uruchom();
 
     private:
         int pojemnosc_silnika;

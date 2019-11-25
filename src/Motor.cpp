@@ -20,4 +20,9 @@ void Motor::set_kolor()
     std::cout << "Podaj nowy kolor:";
     std::cin >> kolor;
 }
+void Motor::uruchom()
+{
+    std::cout << "Przekrecam kluczyk w stacyjce..";
+}
+
 

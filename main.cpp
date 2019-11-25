@@ -9,10 +9,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    Autobus pojazd;
-    pojazd.set_ilosc_miejsc();
-    cout << pojazd.get_ilosc_miejsc();
 
+//Pojazdy pojazd; nie moge stworzyc obiektu bo klasa jest abstrakcyjna
+Rower rower;
+rower.uruchom();
     return 0;
 }
