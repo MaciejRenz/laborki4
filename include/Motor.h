@@ -8,7 +8,7 @@
 class Motor : public Pojazdy
 {
     public:
-        Motor();
+        Motor(std::string kolor_m);
         virtual ~Motor();
         std::string get_kolor();
         void set_kolor();

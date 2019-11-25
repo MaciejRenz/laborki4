@@ -1,9 +1,10 @@
 #include "Samochod.h"
 #include <iostream>
 
-Samochod::Samochod()
+Samochod::Samochod(int pojemnosc_silnika_s)
 {
-    //ctor
+    pojemnosc_silnika=pojemnosc_silnika_s;
+    std::cout<<pojemnosc_silnika<<std::endl;
 }
 
 Samochod::~Samochod()

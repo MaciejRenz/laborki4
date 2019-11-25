@@ -7,7 +7,7 @@
 class Autobus : public Pojazdy
 {
     public:
-        Autobus();
+        Autobus(int ilosc_miejsc_a);
         virtual ~Autobus();
         int get_ilosc_miejsc();
         void set_ilosc_miejsc();

@@ -1,9 +1,10 @@
 #include "Autobus.h"
 #include <iostream>
 
-Autobus::Autobus()
+Autobus::Autobus(int ilosc_miejsc_a)
 {
-    //ctor
+   ilosc_miejsc=ilosc_miejsc_a;
+   std::cout<<ilosc_miejsc<<std::endl;
 }
 
 Autobus::~Autobus()

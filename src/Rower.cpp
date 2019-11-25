@@ -1,9 +1,10 @@
 #include "Rower.h"
 #include <iostream>
 
-Rower::Rower()
+Rower::Rower(int cena_r)
 {
-    //ctor
+    cena=cena_r;
+    std::cout << cena<<std::endl;
 }
 
 Rower::~Rower()

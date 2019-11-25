@@ -7,7 +7,7 @@
 class Rower : public Pojazdy
 {
     public:
-        Rower();
+        Rower(int cena_r);
         virtual ~Rower();
 
         void set_cena();

@@ -7,7 +7,7 @@
 class Samochod : public Pojazdy
 {
     public:
-        Samochod();
+        Samochod(int pojemnosc_silnika_s);
         virtual ~Samochod();
 
         void set_pojemnosc_silnika();

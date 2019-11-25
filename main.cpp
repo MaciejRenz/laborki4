@@ -11,7 +11,7 @@ int main()
 {
 
 //Pojazdy pojazd; nie moge stworzyc obiektu bo klasa jest abstrakcyjna
-Rower rower;
+Rower rower(200);
 rower.uruchom();
     return 0;
 }

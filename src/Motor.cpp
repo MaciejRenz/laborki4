@@ -1,9 +1,10 @@
 #include "Motor.h"
 #include <iostream>
 
-Motor::Motor()
+Motor::Motor(std::string kolor_m)
 {
-    //ctor
+    kolor=kolor_m;
+    std::cout<<kolor<<std::endl;
 }
 
 Motor::~Motor()
